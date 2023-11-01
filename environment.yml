@@ -1,0 +1,17 @@
+
+name : latplan
+dependencies:
+  - python=3.8
+  - sqlite>=3.35                 # need 3.35 which has sqrt function
+  - parallel
+  - gnuplot
+  - libcurl
+  - gcc_linux-64
+  - automake
+  - cmake
+  - flex
+  - bison
+  - libmagic
+  - pip
+  - pip:
+      - -r requirements.txt
